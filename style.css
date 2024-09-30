@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+font-family: cursive;
+}
+.banner{
+    border: 2px solid black;
+    width: 100;
+    height: 10 0 vh;
+}
+.navbar{
+    background-image: url('w1.jpeg'); /* Replace 'your-image.jpg' with the actual image file name */
+    background-size: cover;
+    background-position: right;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background image stay fixed while scrolling */
+    backdrop-filter: blur(10px); /* Optional: Adds a subtle blur to the background image */
+    border: 4px solid rgb(209, 83, 163);
+    background-color: rgba(164, 87, 131, 0.859);
+width: 100%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo{
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+    left: 7%;
+    cursor: pointer;
+}
+.navbar ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: rgb(211, 109, 211);
+    color: rgb(248, 240, 240);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(61, 17, 65);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.slides {
+    width: 100%;
+    height: 100vh;
+    gap: 4rem;
+
+    background: url(fav.jpeg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-snap-align: start;
+   
+    
+}
+.sec1 {
+    display: grid;place-items:center;
+
+    height: fit-content;
+    width: 90%;
+    margin: 50;
+padding: 5rem 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(255, 255, 255);
+    gap: 8rem;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    transition: 1s;
+    align-content: center;
+    
+}
+
+.home-img img {
+    width: 20vw;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.home-content h1 {
+    color: rgb(123, 37, 137);
+    font-size:50px;
+}
+    
+.home-content h3 {
+        color: #c86cd0;
+        font-size: 30px;
+    }
+    .home-content p {
+        color: #f6f3f3;
+        font-size: 20px;
+    }
+    
+    /* About Section Styling */
+/* About Section Styling with Background Image */
+.about {
+    background-image: url('future.jpeg'); /* Replace 'your-image.jpg' with the actual image file name */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background image stay fixed while scrolling */
+    backdrop-filter: blur(5px); /* Optional: Adds a subtle blur to the background image */
+}
+
+.about h1 {
+    font-size: 36px;
+    color: #e4a5ef;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #ddd;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Image styling in About section */
+.about .home-img img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Add padding to the container */
+.container {
+    padding: 20px;
+}
+
+/* About section adjustments for smaller screens */
+@media (max-width: 768px) {
+    .about {
+        width: 100%;
+    }
+
+    .about h1 {
+        font-size: 35px;
+    }
+
+    .about p {
+        font-size: 25px;
+    }
+}
+
+/* Style for the section below the About Me */
+.content-section {
+    width: 200%;
+    height: 100vh;
+    gap: 4rem;
+    background-image: url('w4.jpeg'); /* Replace 'your-image.jpg' with the actual image file name */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: left;
+    color: #eed7d7;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background image stay fixed while scrolling */
+    backdrop-filter: blur(5px); /* Optional: Adds a subtle blur to the background image */
+    background-color: #12080e; /* Light gray background */
+    padding: 60px 20px;
+    color: #efe8e8; /* Dark text color for better contrast */
+}
+
+
+.content-section h2 {
+    font-size: 28px;
+    color: #8b108b; /* Adjust header color if needed */
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #100e0e; /* Slightly lighter text color */
+    margin-bottom: 20px;
+}
+
+.content-section ul {
+    margin: 10px;
+    list-style-type: square;
+    padding: 0;
+}
+
+.content-section ul li {
+    font-size: 18px;
+    color: #110f0f;
+    margin-bottom: 10px;
+}
+
+/* Add some space between sections */
+
+    
+
+/* Portfolio Gallery */
+.portfolio-gallery {
+    background-image: url('w1.jpeg'); /* Replace 'your-image.jpg' with the actual image file name */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background image stay fixed while scrolling */
+    backdrop-filter: blur(5px); /* Optional: Adds a subtle blur to the background image */
+
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.portfolio-image {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.05);
+}
+
+/* Lightbox Modal */
+.lightbox {
+    
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+.lightbox-slides {
+    display: none;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.lightbox img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.prev {
+    left: 5%;
+}
+
+.next {
+    right: 5%;
+}
+
+@media only screen and (max-width: 700px) {
+    .portfolio-image {
+        width: 200px;
+    }
+}
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.portfolio-image {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1_1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 170px;
+	font-size: 65px;
+    color: #e0ebec;
+    
+    outline-color: #110f0f;
+}
+
+
+.center{
+	display: grid;
+	place-items: center;
+	width: 100%;
+    height: 100vh;
+}
+
+
+.social-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    align-self: end;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+
+
+.contact {
+    padding: 100px 0;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f3f3f7;
+    border-radius: 5px;
+  }
+  
+  #contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" alt=""
+            class="logo">
+            
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#">contact me</a></li>
+                
+            </ul>
+        </div>                        <h1><center>This <span>is my portfolio </span></center></h1>
+
+    </div>
+    <div class="container">
+        <!-- Home Section -->
+        <div class="slides" id="home">
+            <div class="center">
+                <section class="sec1">
+                    <div class="home-img">
+                        <img src="kavya.jpg" alt="Profile">
+                    </div>
+                    <div class="home-content">
+                       <center> <h1>Hellow, I'm <span>Ronali Liyanage </span></h1>
+                        <h3>"Logic will get you from A to B. Imagination will take you everywhere,Imagination is everything. It is the preview of life’s coming attractions."-Albert Einstein</h3>
+                        <p> I’m Ronali Liyanage, an aspiring entrepreneur and IT enthusiast studying at LNBTI University. My journey is driven by a passion for building innovative business solutions and turning creative visions into reality. From launching ventures to exploring new markets, I am committed to shaping a future where technology and entrepreneurship blend seamlessly. </p></center>
+                        </div>
+                    </section>
+                </div>
+            </div> 
+    </div>
+    <div>
+        <main>
+            <section class="about">
+                <div class="aboutslides" id="about">
+
+                <div class="home-img">
+                    <img src="kavya.jpg" alt="Profile">
+                <h1>About Me</h1>
+                <p>
+                    I'm Ronali Liyanage, a 18-year-old student following a computer and it engineering degree at LNBTI Sri Lanka, a university sponsored by Metatecno Japan. With a passion for merging creativity, technology, and business, I aim to transform unique ideas into tangible ventures. My journey is driven by a desire to solve real-world problems and build a future where technology and innovation are at the forefront.
+                </p>
+               
+            </section>
+            <div class="content-section">
+                <!-- Skills, Achievements, Future Work & Goals content goes here -->
+ <!-- Skills Section -->
+ <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li><strong>Programming Languages:</strong> C (focused on pointers), HTML, CSS, JavaScript</li>
+        <li><strong>Web Development:</strong> HTML5, CSS3, responsive design, portfolio development</li>
+        <li><strong>Design Skills:</strong> Mug printing design, card creation (business, greeting, invitations)</li>
+        <li><strong>Entrepreneurial Skills:</strong> Business strategy, planning, and market exploration</li>
+        <li><strong>Creative Skills:</strong> Crafting and art, focusing on innovative art and craft projects</li>
+    </ul>
+</section>
+
+<!-- Achievements Section -->
+<section class="achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li>successfully did a IT diploma at esoft metro college</li>
+        <li>Built an Arduino-based Ultrasonic Digital Ruler project, showcasing hardware and software integration</li>
+        <li>successfully did a English diploma at esoft metro college</li>
+        <li>Continuously learning through Coursera, earning certificates in technology and business</li>
+        <li>passed N5 JLPT  exam</li>
+
+    </ul>
+</section>
+
+<!-- Future Work Section -->
+<section class="future-work">
+    <h2>Future Work & Goals</h2>
+    <p>
+        As I continue my journey, I have ambitious goals that blend creativity, entrepreneurship, and technology:
+    </p>
+    <ul>
+        <li>Expand graphic design business to include a wider range of products</li>
+        <li>Launch a YouTube channel focusing on AI-generated stories with moral lessons, alongside an art and craft channel for a global audience</li>
+        <li>Become a successful entrepreneur, with a focus on leveraging technology to create innovative solutions</li>
+        <li>Invest in Sri Lanka's natural wealth by developing unique villas, cafes, and adventurous hotel experiences aimed at international tourists</li>
+    </ul>
+</section>
+</main>
+</div>
+            </div>
+<!-- Portfolio Section -->
+<div class="portfolio" id="Portfolio">
+
+<section class="portfolio">
+    <h1><center>My portfolio</h1></section>center>
+    <div class="portfolio-gallery">
+        
+        <h1>*invitation cards such as birthday cards,wedding cards,baby shower invitations,ceremony invitations.</h1><b>
+        <img src="Birthday.png" alt="Design 1" class="portfolio-image" onclick="openLightbox();currentSlide(1)"></b>
+        
+        
+            
+        <img src="poster.png" alt="Design 2" class="portfolio-image" onclick="openLightbox();currentSlide(2)">
+        <h1>*Posters such as FB posters,Instagram Posters,Thumbnails for youtube,marketing posters</h1>
+
+        <h1>*Professional Documents such as Curriculum vitae,Bio Data, Resume writing.</h1>
+
+        <img src="cv.jpg" alt="Design 3" class="portfolio-image" onclick="openLightbox();currentSlide(3)">
+        
+
+        <!-- Add more images as needed -->
+    </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightboxModal" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <div class="lightbox-content">
+        <div class="lightbox-slides">
+            <img src="Birthday.png" alt="Design 1">
+            <caption>Birthday invitation card</caption>
+        </div>
+        <div class="lightbox-slides">
+            <img src="poster.png" alt="Design 2">
+        </div>
+        <div class="lightbox-slides">
+            <img src="cv.jpg" alt="Design 3">
+        </div>
+       
+        
+        <!-- Add more slides as needed -->
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</main>
+</div>
+        <!-- Contact Section -->
+        <div class="slides" id="contact">
+            <h1 class="h1_1"><center>Contact Me</center></h1>
+            <div class="center">
+                <section class="sec1">
+                    <div class="social-icons">
+                        <a href="http://wa.me/+94742607129" target="_blank">
+                            <img src="social/whatsapp.png" alt="WhatsApp">
+                        </a>
+                        <a href="https://www.instagram.com/ronalikavya?igsh=MWYzb25hdmMwYzNybA=="
+                            target="_blank">
+                            <img src="social/instagram.png" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100094102398444&mibextid=ZbWKwL" target="_blank">
+                            <img src="social/fb.png" alt="fb">
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+<div class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+           
+
+
+ 
